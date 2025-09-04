@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Personalizados</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            background-color: rgb(247, 176, 185);
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main {
+            background-color: white;
+            width: 600px;
+            height: 600px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.336);
+        }
+        h1:hover {
+            color: red;
+        }
+        main > p {
+            display: none;
+        }
+        main:hover > p {
+            display: block;
+        }
+        h1#top {
+            text-decoration: underline;
+            text-align: center;
+        }
+        h1#top:active {
+            text-decoration: none;
+        }
+        p.conteudo-inicial {
+            text-indent: 20px;
+            text-align: justify;
+        }
+        p.conteudo-inicial:hover {
+            color: red;
+            cursor: pointer;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1 id="top">Seletores Personalizados</h1>
+        <p class="conteudo-inicial">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum officiis delectus, repellendus quos molestiae expedita, doloribus, tenetur illo nesciunt dolorem in perspiciatis aperiam omnis aliquam? Sed non magni voluptatibus quod!</p>
+    </main>
+</body>
+</html>

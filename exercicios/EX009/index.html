@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Ex004/fav.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-fonte/Pré-formatação</h2>
+    <p>O comando <code>document.getElementById</code> é usado para selecionar um elemento pelo seu ID. Para tranformar em fonte monoespaçada, você pode usar a tag &lt;code&gt;.</p>
+
+    <h3>Dá para mesclar com <code>&lt;pre&gt;</code> e <code>&lt;code&gt;</code></h3>
+    <p>Um texto que ficaria assim: <br>
+        <code>
+            function exemplo() {
+                console.log("Hello, World!");
+            }
+        </code>
+    </p>
+    <p>Pode ficar assim: <br>
+        <pre>
+            <code>
+function exemplo() {
+    console.log("Hello, World!");
+}
+            </code>
+        </pre>
+        Respeitando a identação.
+    </p>
+
+    <h2>Citações</h2>
+    <p>Quando quisermos usar uma citação em nosso texto é importante se atentar ao elemento semântico, ao invés de usar apenas aspas, devemos utilizar a tag &lt;q&gt;.</p>
+    <p>Exemplo de citação: <q>Esta é uma citação em bloco.</q></p>
+    <p>Posso até colocar em itálico usando &lt;ins&gt;: <ins><q>Esta é uma citação em itálico.</q></ins></p>
+
+    <h2>Citações Completas</h2>
+    <p>Para citações completas pode se usar blocos com &lt;blockquote&gt;. Também pode passsar o atributo <ins>cite=""</ins> para dar referencia completa com link (seve para SEO)</p>
+    <p>Exemplo de citação com Jonathan Stark: <br>
+        <blockquote cite="https://www.google.com.br/books/edition/Building_iPhone_Apps_with_HTML_CSS_and_J/3NQhBTNKJB8C?hl=pt-BR&gbpv=1&dq=html&pg=PA39&printsec=frontcover"> The elephant in the room at this point is that the user has no way to negative back to previus pages(remeber that we've hijaked all the links, so the Safari page history won't work).
+        </blockquote>
+    </p>
+
+    <h2> Abreviações</h2>
+    <p>Posso usar a tag &lt;abbr&gt; para indicar uma abreviação.</p>
+    <p>Estou aprendendo <abbr title="HiperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    <h2>Texto Invertido</h2>
+    <p>Podemos usar uma tag muito inútil, mas legal para inverter texto: a tag &lt;bdo&gt; que pode ser ltl ou rtl.</p>
+    <p><bdo dir="rtl">Esse texto está invertido.</bdo></p>
+</body>
+</html>

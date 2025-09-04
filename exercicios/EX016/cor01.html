@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Degrade</title>
+    <style>
+        @font-face {
+        font-family: 'UrbanSans';
+        src: url('Urban Shadow Sans Serif.otf') format('opentype');
+        }
+
+        @font-face {
+        font-family: 'UrbanScript';
+        src: url('Urban Shadow Script.otf') format('opentype');
+        }
+
+        body {
+            color: black;
+            background-image: linear-gradient(to right, rgb(252, 252, 252), rgba(118, 118, 224, 0.329));
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-size: 5em;
+            font-family: UrbanScript;
+            font-weight: normal;
+            text-align: center;
+        }
+        p {
+            font-size: 2em;
+            text-indent: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de degrade</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur nisi nobis eligendi. Consequatur perspiciatis laborum debitis facilis. Accusantium, doloribus? Earum dolor optio distinctio dignissimos totam mollitia autem quia tempora pariatur?</p>
+</body>
+</html>

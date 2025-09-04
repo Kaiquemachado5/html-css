@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Personalizados</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        div.conteudo {
+            width: 400px;
+            height: 300px;
+            background-color: rgb(209, 209, 224);
+            color: rgb(12, 12, 12);
+            font-size: 1.2em;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+        }
+        div > p {
+            text-indent: 10px;
+        }
+        div > h2 {
+            text-align: center;
+        }
+        div#imagem {
+            display: flex;
+            justify-content: center;
+        }
+        img#paisagem {
+            box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.5);
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seletores Personalizados</h1>
+    <main>
+        <div class="conteudo">
+            <h2>Lorem</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque obcaecati id dignissimos. Laboriosam, et inventore neque, porro perspiciatis facilis ratione vel, eum dolore a eligendi iure ea. Corrupti, esse.</p>
+            <h2>Lorem</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque obcaecati id dignissimos. Laboriosam, et inventore neque, porro perspiciatis facilis ratione vel, eum dolore a eligendi iure ea. Corrupti, esse.</p>
+        </div>
+        <div class="conteudo">
+            <h2>Lorem</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque obcaecati id dignissimos. Laboriosam, et inventore neque, porro perspiciatis facilis ratione vel, eum dolore a eligendi iure ea. Corrupti, esse.</p>
+            <h2>Lorem</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque obcaecati id dignissimos. Laboriosam, et inventore neque, porro perspiciatis facilis ratione vel, eum dolore a eligendi iure ea. Corrupti, esse.</p>
+        </div>
+    </main>
+    <div id="imagem">
+        <img id="paisagem" src="../../../images/paisagem-1500.jpg" alt="paisagem">
+    </div>
+</body>
+</html>
