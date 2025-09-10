@@ -23,18 +23,26 @@
         iframe {
             display: block;
             margin: auto;
-            width: 600px;
-            height: 800px;
+            width: 100%;
+            height: 600px;
+            border: 2px solid black;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de iframe</h1>
+
+        <ul>
+            <li><a href="../EX007/index.html" target="frame">Link</a></li>
+            <li><a href="../EX020/index3.html" target="frame">Link</a></li>
+            <li><a href="../EX020/index5.html" target="frame">Link</a></li>
+        </ul>
+
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quas iusto facilis. Sapiente quaerat quidem aspernatur placeat ducimus earum officiis nihil ratione libero deserunt inventore ipsa, nemo maxime, vitae dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, molestias. Cupiditate similique consequuntur temporibus. Molestiae commodi incidunt rem consequuntur temporibus in voluptas maiores ducimus harum. Id magni sunt aperiam perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur in aliquid porro, odio facere eos molestiae omnis praesentium, eaque vel temporibus iste laboriosam accusantium, quod ut doloribus enim officiis quisquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic tempore omnis aut, eligendi aliquid culpa possimus molestiae maiores vel blanditiis voluptatem sapiente, temporibus recusandae consectetur fugiat adipisci totam. Nihil, atque.
         </p>
-        <iframe src="iframe.html" frameborder="0"></iframe>
+        <iframe srcdoc="<h1>Escolha uma das opções acima</h1>" name="frame" frameborder="0"></iframe>
         <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis architecto sapiente culpa iure incidunt voluptatibus facere illo esse non explicabo eveniet at sit possimus aliquam deserunt, reiciendis nisi minus itaque! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit quia soluta totam, inventore aperiam adipisci molestiae aliquam, dolorum unde quasi ea quibusdam fugit error quisquam? Nam velit provident a non! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, mollitia nihil placeat reiciendis obcaecati rem numquam neque asperiores explicabo, eaque ipsa hic porro unde, ratione quaerat at? Voluptatibus, modi consequatur?
         </p>
