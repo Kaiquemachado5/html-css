@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="medias.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isexofem" value="F" checked>
+            <label for="isexofem">Feminino</label> <br>
+            <input type="radio" name="sexo" id="isexomasc" value="M">
+            <label for="isexomasc">Masculino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes fávoritos</legend>
+            <input type="checkbox" checked name="fut" id="ifut">
+            <label for="ifut">Futebol</label> <br>
+            <input type="checkbox" name="nat" id="inat">
+            <label for="inat">Natação</label>
+        </fieldset>
+        <fieldset>
+            <label for="icor">Cor</label>
+            <input type="color" name="cor" id="icor" value="#ff0000"> <br>
+
+            <label for="irange">Nível</label>
+            <input type="range" name="range" id="irange" value="0" min="0" max="200"> <br>
+
+            <label for="file">Envie seu arquivo</label>
+            <input type="file" name="file" id="ifile">
+        </fieldset>
+        <p>
+            <input type="submit" name="enviar" id="ienviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
