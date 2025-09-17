@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(212, 209, 209);
+}
+
+header {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 10px;
+}
+
+header > h1 {
+    border: 1px dashed white;
+}
+
+header > nav {
+    border: 1px dashed white;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.342);
+    padding: 10px;
+    margin: 10px
+}

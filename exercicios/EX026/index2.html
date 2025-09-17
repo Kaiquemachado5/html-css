@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        div.container {
+            display: flex;
+            flex-flow: row wrap;
+            align-content: flex-end;
+            align-items: center;
+            background-color: lightgreen;
+            padding: 10px;
+            height: 60vh;
+        }
+
+        div.item {
+            background-color: rgb(107, 20, 220);
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        div#item1 {
+            height: 55px;
+        }
+
+        div#item2 {
+            height: 75px;
+        }
+
+        div#item3 {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="item1">Exemplo de bloco A</div>
+        <div class="item" id="item2">Exemplo de bloco B</div>
+        <div class="item" id="item3">Exemplo de bloco C</div>
+        <div class="item" id="item4">Exemplo de bloco D</div>
+        <div class="item" id="item5">Exemplo de bloco E</div>
+        <div class="item" id="item6">Exemplo de bloco F</div>
+    </div>
+</body>
+</html>
