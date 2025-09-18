@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+header {
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+header > h1 {
+    flex-basis: auto;
+}
+
+main {
+    max-width: 90%;
+    margin: 10px auto;
+} 
