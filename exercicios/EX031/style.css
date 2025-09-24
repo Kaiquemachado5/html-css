@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(4, 1fr);
+    gap: 5px;
+}
+
+#caixa1 {
+    grid-area: 1 / 1 / 2 / span 4;
+    background-color: rgb(181, 245, 245);
+}
+
+#caixa2 {
+    grid-row: 2 / 4;
+    grid-column: 1 / 3;
+    background-color: rgb(245, 138, 138);
+}
+
+#caixa3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: rgb(175, 138, 245);
+}

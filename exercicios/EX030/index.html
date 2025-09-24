@@ -7,16 +7,15 @@
     <style>
         div.conteiner {
             border: solid 3px black;
-            width: 1000px;
+            max-width: 1000px;
+            height: 1000px;
             margin: auto;
             display: grid;
-            grid-template-columns: 2fr 1fr 1fr 1fr;
-            grid-template-rows: repeat(3, 50px);
-            grid-auto-rows: 50px;
-            grid-auto-flow: column;
+            grid-template: repeat(3, auto) / repeat(3, auto);
+            grid-auto-flow: row;
             gap: 5px;
-            place-items: normal normal;
-            place-content: normal normal;
+            place-items: start stretch;
+            place-content: start stretch;
         }
 
         div.item {
